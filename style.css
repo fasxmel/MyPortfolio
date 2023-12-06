@@ -10,7 +10,7 @@
     width: 100%;
     background-image: url(/assets/image/bg.jpeg);
     background-size: cover;
-    background-position: 50% 25%; 
+    background-position: right 50% top 25%; 
 }
 
 nav{
@@ -49,4 +49,32 @@ nav ul li a{
 nav ul li a:hover{
     color: rgb(150, 23, 23);
     transition: .4s;
+}
+
+.content{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    transform: translateY(-50%);
+    
+}
+
+h1{
+    color: white;
+    margin: 20px 0 20px;
+    font-size: 75px;
+}
+
+h3{
+    color: white;
+    margin: 25px;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+h4{
+    color: red;
+    letter-spacing: 2px;
+    font-size: 20px;
+   
 }
