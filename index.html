@@ -3,50 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 <body>
     <!--Hero Section-->
-    <header>
-        <div class="hero">
-        <nav>
-            <h2 class="logo">My Portfo <span>lio</span></h2>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">About me</a></li>
-                <li><a href="#">Contact me</a></li>
-            </ul>
-        </nav>
-    </div> 
-    </header>
+    <header class="header">
+        <a href="#"class="logo">Hristoz <span>Ognyanov</span></a>
 
-    <div class="content">
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about me">About me</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact me">Contact me</a>
+        </nav>
+    </header>
+    <!--Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span>Hristoz Ognyanov</span></h1>
+            <div class="text-animate">
+                <h3>Web Developer</h3>
+            </div>
+            <p>I am a front-end web developer. I can provide clean code and pixel
+                perfect design. I also make the website more & more interactive with web
+                animation. <br> A responsive design makes your website accessible to all users,
+                regardless of their device.</p>
+
+                <div class="btn-box">
+                    <a href="#" class="btn">Hire Me</a>
+                    <a href="#" class="btn">Let's Talk</a>
+                </div>
+        </div> 
+        <div class="home-sci">
+            <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            <a href="#"><i class='bx bxl-facebook' ></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+            <a href="#"><i class='bx bxl-github' ></i></a>
+        </div> 
+        <div class="home-imgHover"></div>  
+    </section>
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+
+        <div class="about-img">
+            <img src="#" alt="">
+            <span class="circle-spin"></span>
+        </div>
+
+        <div class="about-content">
+            <h3>Web Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+               Iste adipisci fuga nisi numquam voluptates iure rem, aspernatur aliquam. 
+               Beatae, odio eveniet sint tempora unde ullam ab quisquam qui ipsam, neque illo tempore reprehenderit nam eos. 
+               Ab a dolorem molestias quo voluptatum laboriosam quod, 
+               explicabo inventore itaque eligendi unde reiciendis quas.</p>
+
+               <div class="btn-box btns">
+                <a href="#" class="btn">Read More</a>
+               </div>
+        </div>
+
+    </section>
+
+    <!-- <div class="content">
         <h4>Hello, my name is</h4>
         <h1>Hristoz <span>Ognyanov</span></h1>
-        <h3>I'am Web Developer.</h3>
+        <h3>I'am .</h3>
     </div>
-    <!--About Section-->
-    <section class="about">
+    About Section-->
+    <!-- <section class="about">
         <div class="main">
             <img src="#">
 
             <div class="about-text">
                 <h2>About me</h2>
                 <h5>Developer</h5>
-                <p>I am a front-end web developer. I can provide clean code and pixel
-                    perfect design. I also make the website more & more interactive with web
-                    animation. <br> A responsive design makes your website accessible to all users,
-                    regardless of their device.</p>
+                <p></p>
               <button type="button">Let's Talk</button>
             </div>
 
         </div>
-    </section>
+    </section> -->
 
 
 
