@@ -36,8 +36,8 @@ const Hero = () => {
             <img src={githubIcon} alt="GitHub Icon" />
             </a>
         </span>
-        <p>
-        I am a passionate web developer always looking for my next challenge. 
+        <p className={styles.description}>
+        I am a passionate web developer always looking for my next challenge.<br/>
         I thrive on creating innovative and dynamic web solutions and am eager to bring my skills to new and exciting opportunities. 
         I am open to collaborating on projects that push boundaries and drive growth.
         </p>
