@@ -47,30 +47,6 @@ const Contact = () => {
 
         </form>
 
-      {/* <div className={styles.socialMedia}>
-        <a
-          href="https://www.linkedin.com/in/hristoz-ognyanov-104a9b191/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            className={styles.linkedInIcon}
-            src={linkedInIcon}
-            alt="LinkedIn Icon"
-          />
-        </a>
-        <a
-          href="https://github.com/fasxmel"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            className={styles.githubIcon}
-            src={githubIcon}
-            alt="GitHub Icon"
-          />
-        </a>
-      </div> */}
     </section>
   );
 };
