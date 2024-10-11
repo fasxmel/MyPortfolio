@@ -19,7 +19,7 @@ const Hero = () => {
    const githubIcon = theme === 'light' ? githubIconLight : githubIconDark;
 
   return (
-    <section id="hero" className={styles.containerHero}>
+    <section id="hero" className={styles.container}>
       <div className={styles.containerImg}>
         <img className={styles.profileImg} src={profileImg} alt="Profile Image of Hristoz Ognyanov" />
         <img onClick={toggleTheme} className={styles.themeIcon} src={themeIcon} alt="Coolor mode Icon" />

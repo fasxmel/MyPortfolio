@@ -62,3 +62,25 @@ input[type="submit"]:active{
     transform: translateY(2px);
     box-shadow: 0 2px 2px  rgba(0, 0, 0, 0.25);
 }
+
+@media (width >= 800px) {
+
+    textarea, input:not([type="submit"]){ 
+        width: 600px;
+        margin: auto;
+        font-size: 20px;
+    }
+
+    .formGroup {
+        gap: 40px;
+    }
+}
+
+@media (width >= 1400px) {
+    
+    textarea, input:not([type="submit"]){ 
+        margin: auto;
+        width: 800px;
+    }
+
+}
