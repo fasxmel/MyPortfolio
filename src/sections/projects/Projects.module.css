@@ -25,6 +25,10 @@
     
 }
 
+.sectionTitle{
+    margin-bottom: 30px;
+}
+
 .containerProjects{
     display: flex;
     flex-direction: column;
