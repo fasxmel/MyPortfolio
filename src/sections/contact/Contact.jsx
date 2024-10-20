@@ -10,12 +10,11 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        'service_iy4rikg', 
-        'template_j0ggf6z', 
+        import.meta.env.VITE_REACT_SERVICE_ID, 
+        import.meta.env.VITE_REACT_TEMPLATE_ID, 
         form.current,
-         
         {
-        publicKey: '0L2IDyhf6LfMUoOic',  //public key
+        publicKey: import.meta.env.VITE_REACT_PUBLIC_KEY  
       })
 
       .then(
@@ -42,7 +41,7 @@ const Contact = () => {
     <section id="contact" className={styles.container}>
       <h1 className={styles.sectionTitle}>Contact</h1>
 
-      {/* TODO: Add functionality to send email to resive email also */}
+        
         <form ref={form} onSubmit={sendEmail}>
           <div className={styles.formGroup}>
 
